@@ -129,3 +129,5 @@ footer .wrap{display:flex;flex-direction:column;gap:6px}
 .prog li{counter-increment:p;display:flex;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
 .prog li::before{content:counter(p);flex:none;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;transform:translateY(6px)}
 @media (max-width:860px){.prog{grid-template-columns:1fr}}
+.road.r5{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (max-width:860px){.road.r5{grid-template-columns:1fr}}
