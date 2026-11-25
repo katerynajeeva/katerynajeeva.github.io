@@ -95,3 +95,4 @@ footer .wrap{display:flex;flex-direction:column;gap:6px}
 .thumbs{display:flex;margin-bottom:6px}
 .thumbs img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.12)}
 .thumbs img+img{margin-left:-14px}
+.btn svg{width:20px;height:20px;margin-right:8px;flex:none}
